@@ -352,7 +352,7 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 - [ ] Choose a very recent version of PHP.
 
 #### Q49. On a regular WordPress install, what is the difference between transients and the object cache?
-- [ ] Transients are persistent and write to the wp_options. The object cache persists only for the particular page load.
+- [x] Transients are persistent and write to the wp_options. The object cache persists only for the particular page load.
 - [ ] Transients are stored in the WordPress database. The object cache is stored on the server where the WordPress install is located.
 - [ ] Transients are available for the duration of a user session and apply to all page components. The object cache is available only for scripts.
 - [ ] Transients persist only for the particular page load. The object cache is persistent and writes to the wp_options table.
